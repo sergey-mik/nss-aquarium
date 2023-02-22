@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  /* justify-content: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  overflow: hidden; */
+}
+.header {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  font-size: 20px;
+}
+
+.summary {
+  padding-left: 10em;
+}
+
+.thoughts {
+  float: right;
+  display: inline;
+  border: 1px dotted rgb(0, 0, 0);
+  padding: 5em;
+  padding-top: 1em;
+  padding-bottom: 25em;
+  margin-right: 10em;
+}
+
+.quotes {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px dotted rgb(0, 0, 0);
+  padding: 5em;
+  padding-right: 1em;
+  padding-top: 1em;
+  margin-top: 1em;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px dotted rgb(0, 0, 0);
+  padding: 5em;
+  padding-top: 1em;
+}
+
+.fish {
+  display: flex;
+  /* flex-wrap: wrap; */
+  border: 1px dotted rgb(0, 0, 0);
+  padding: 5em;
+  padding-top: 1em;
+}
